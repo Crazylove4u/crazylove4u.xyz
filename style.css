@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1515px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navbar .container ul {
+    margin-right: 700px;
+}
+
+.navbar .container a {
+    text-decoration: none;
+    color: #333;  
+    font-weight: bold;
+}
+ .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ }
+
+ .navbar .cart .cart-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease;
+}
+
+ .navbar .cart button:hover {
+    background: #000;
+    color: white;
+}
+
+.navbar .cart-button i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.navbar .cart-button .cart-count {
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 3px 8px;
+    font-weight: bold;
+}
+
+ .banner {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 80px 0;
+    width: 100%;
+ }
+
+ .banner h1 {
+    font-size: 70px;
+ }
+
+ .banner p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.products .product_card {
+    border-radius: 10px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    width: 300px;
+    height: 380px;
+    border: 2px solid #DCDCDC;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.products .product_card:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+}
+
+
+.product_card .product-image img {
+    width: 298px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.product_card .product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
+    width: 298px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.product_card button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    background: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product_card button:hover {
+    background: #555;
+    color: white;
+}
+
+.footer {
+    background: #a7e0fc;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shop .shop_body a {
+    display: flex;
+    justify-content: space-evenly;
+}
+.shop_body {
+    display: none;
+    text-decoration: none;
+    width: 150px;
+    height: 121px;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    text-align: left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.shop:hover .shop_body {
+    background: #f8f9fa;
+    display: block;
+}
+
+.shop_body .shop_body-1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.shop a {
+    /* border-bottom: 1px solid #ddd; */
+    display: block;
+    padding: 10px;
+}
+
+.shop .father{
+    border:none;
+    background: none;
+}
+
+.shop .father:hover {
+    cursor: pointer;
+}
+
+.shop_body-1 {
+    width: 149px;
+    height: 40px;
+    background-color: #f8f9fa;
+}
+
+.shop_body-1:hover {
+    background-color: rgb(219, 213, 213);
+}
+
+.shop_body-2 {
+    width: 149px;
+    height: 40px;
+    background-color: #f8f9fa;
+}
+
+.shop_body-2:hover {
+    background-color: rgb(219, 213, 213);
+}
+
+.shop_body-3 {
+    width: 149px;
+    height: 40px;
+    background-color: #f8f9fa;
+}
+
+.shop_body-3:hover {
+    background-color: rgb(219, 213, 213);
+}
